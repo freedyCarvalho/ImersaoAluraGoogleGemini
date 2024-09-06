@@ -42,7 +42,7 @@ Digite uma habilidade ou tecnologia de IA no campo de busca, e veja como o siste
 
 ### Link do web site do projeto
 
-https://iadobem.vercel.app/
+[Acesse o site do projeto](https://iadobem.vercel.app/ "Iadobem - Um projeto incrível sobre IA" target="_blank")
 
 
 ## Considerações Finais
