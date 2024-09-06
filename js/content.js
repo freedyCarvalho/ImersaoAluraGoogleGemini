@@ -130,10 +130,10 @@ const gemini = {
 const sobreIA = {
     titulo: "A Inteligência Artificial: Uma Mão Amiga no Nosso Dia a Dia",
     paragrafo: [
-        "A Inteligência Artificial (IA), antes vista como algo distante da realidade, tornou-se uma parte cada vez mais presente em nossas vidas. Mas afinal, o que é a IA e como ela pode nos ajudar?",
+        "A Inteligência Artificial (IA), antes vista como algo distante da realidade, tornou-se uma parte cada vez mais presente em nossas vidas. Mas afinal, o que é a IA e <b>como ela pode nos ajudar?</b>",
         "A IA, simplificando, é a capacidade de máquinas aprenderem e realizarem tarefas que antes só nós, humanos, éramos capazes de fazer. Isso inclui desde tarefas simples, como reconhecer rostos em fotos, até tarefas mais complexas, como traduzir idiomas e até mesmo dirigir carros.",
-        "É importante ressaltar que a IA não veio para substituir os humanos, mas sim para complementar nossas capacidades. A IA é uma ferramenta que pode ser usada para o bem, como para resolver problemas sociais e ambientais, ou para o mal, como para manipular informações e disseminar fake news.",
-        "Em resumo, a IA é uma tecnologia com um enorme potencial para transformar o mundo. Ao entender como ela funciona e como podemos utilizá-la de forma ética e responsável, podemos construir um futuro melhor para todos."
+        "É importante ressaltar que a IA <b>não veio</b> para substituir os humanos, mas sim para <b>complementar</b> nossas capacidades. A IA é uma ferramenta que pode ser <b>usada para o bem</b>, como para resolver problemas sociais e ambientais, ou para o mal, como para manipular informações e disseminar fake news.",
+        "Em resumo, a IA é uma tecnologia com um enorme potencial para <b>transformar o mundo</b>. Ao entender como ela funciona e como podemos utilizá-la de forma ética e responsável, podemos construir um <b>futuro melhor</b> para <b>todos</b>."
     ],
     destaque: {
         titulo: "Mas como a IA pode nos ajudar no dia a dia?",
