@@ -42,7 +42,7 @@ Digite uma habilidade ou tecnologia de IA no campo de busca, e veja como o siste
 
 ### Link para o site do projeto
 
-Você pode acessar o site do projeto clicando aqui: [Iadobem](https://iadobem.vercel.app/ "Acesse o site do projeto" target="_blank").
+Você pode acessar o site do projeto clicando aqui: [Iadobem](https://iadobem.vercel.app/){:target="_blank"}.
 
 
 ## Considerações Finais
