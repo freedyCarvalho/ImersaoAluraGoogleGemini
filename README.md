@@ -1,6 +1,10 @@
 
 # IA a Serviço da Humanidade: Um Projeto Prático com Google Gemini. Bem-vindas, IAs! 🌍🤖
 
+### Link para o site do projeto 🌍
+
+Você pode acessar o site do projeto clicando aqui: [Iadobem](https://iadobem.vercel.app/){:target="_blank"}.
+
 ## Introdução
 
 O tema deste trabalho é simples, mas fundamental: a Inteligência Artificial (IA) não veio para substituir as pessoas ou prejudicá-las, mas para colaborar e melhorar a nossa vida. Se bem utilizada, a IA tem o poder de transformar o mundo para melhor, assim como todas as grandes inovações. Como tudo na vida, a tecnologia pode ser uma força para o bem, desde que seja usada com responsabilidade.
