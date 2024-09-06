@@ -36,6 +36,13 @@ header {
   background-image: url(../img/header-gemini-teia-shadow-d-opc.png);
   border-radius: 10px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+
+  background-size: cover;
+  background-position: center; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 h1 {
@@ -109,8 +116,6 @@ button#btn-buscar:hover {
   background-color: #3e8e41;
 }
 
-
-
 input#busca,
 button#btn-limpar {
   padding: 10px;
@@ -132,12 +137,6 @@ button#btn-limpar {
 button#btn-limpar:hover {
   background-color: #3e8e41;
 }
-
-
-
-
-
-
 
 div#content-cofundador {
   margin-top: 10px;
@@ -177,9 +176,9 @@ button#btn-buscar:hover {
 }
 
 .busca > label {
-  display:inline-block;
-  color:#fff; 
-  margin-right:10px;
+  display: inline-block;
+  color: #fff;
+  margin-right: 10px;
 }
 
 .sobre-gemini {
@@ -201,9 +200,8 @@ button#btn-buscar:hover {
 .sobre-gemini div#content-exemplos-de-uso ul > li {
   background-color: transparent;
   margin-left: 30px;
-  padding:2px;
+  padding: 2px;
 }
-
 
 .resultados {
   margin: auto;
@@ -229,7 +227,6 @@ ul#lista-resultados > li:hover,
 ul#habilidades > li:hover {
   font-style: oblique;
 }
-
 
 /* Box IA */
 
@@ -276,13 +273,44 @@ ul#habilidades > li:hover {
 
 .modal-content {
   background-color: #fefefe;
-  margin: 15% auto;
+  /* margin: 15% auto; */
+  margin: 2% auto;
   padding: 20px;
   border: 1px solid #888;
-  width: 80%;
+  width: 90%;
   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
   border-radius: 10px;
 }
+
+.modal-content img {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.modal-content p {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 15%;
+  border-radius: 10px;
+}
+
+.modal-content button:hover {
+  opacity: 80%;
+}
+
 
 .modal span.close {
   display: none;
@@ -337,21 +365,20 @@ footer {
   opacity: 1;
 } */
 
-
 .back-to-top {
   opacity: 0;
   transition: opacity 0.3s ease-in-out;
-  
+
   position: fixed;
   bottom: 20px;
   right: 20px;
-  
+
   background-color: #4caf50;
   color: white;
   padding: 10px 20px;
   text-decoration: none;
   border-radius: 5px;
-  
+
   /* Remova o display: none */
 }
 
@@ -359,7 +386,6 @@ footer {
   opacity: 1;
   pointer-events: auto; /* Isso garante que o botão seja clicável quando visível */
 }
-
 
 footer ul > li {
   display: inline-flex;
@@ -378,5 +404,5 @@ footer ul > li:hover {
 
 footer ul#footer-links-uteis {
   margin-top: 0;
-  margin-bottom:0;
+  margin-bottom: 0;
 }
