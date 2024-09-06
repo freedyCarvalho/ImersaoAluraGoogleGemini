@@ -1,5 +1,5 @@
 
-# Bem-vindas, IAs! 🌍🤖
+# IA a Serviço da Humanidade: Um Projeto Prático com Google Gemini: Bem-vindas, IAs! 🌍🤖
 
 ## Introdução
 
@@ -13,13 +13,16 @@ Este projeto é uma demonstração de conceitos básicos, mas eficientes e funci
 - **HTML**
 - **CSS**
 - **JavaScript**
+- **Google Gemini**
 
-A proposta é clara: centralizar todas as informações em um único arquivo JavaScript, simulando uma consulta a um banco de dados. Essa abordagem facilita a inclusão e alteração de conteúdo de forma ágil e prática.
+A proposta é clara: o uso do **JavaScript** para gerar conteúdo dinâmico e a busca automatizada. Centralizamos todas as informações em um único arquivo JavaScript, simulando uma consulta a um banco de dados. Essa abordagem facilita a inclusão e alteração de conteúdo de forma ágil e prática.
+
+**Google Gemini**: Motor de IA utilizado para processamento de linguagem natural e geração de resultados relevantes.
 
 ### Funcionalidades:
 - **Busca Automática**: À medida que o usuário digita no campo de busca, o sistema retorna os resultados automaticamente.
 - **Imagens Randômicas**: As imagens mudam aleatoriamente, ilustrando a união simbiótica entre homem e IA.
-- **Modal de Habilidades**: Para cada consulta a uma habilidade da IA, um modal com informações complementares é exibido.
+- **Modal de Habilidades**: Para cada consulta (clique) a uma habilidade da IA, um modal com informações complementares é exibido.
 - **Histórico de Busca**: A cada carregamento da página é mostrado 5 habilidades mais pesquisadas.
   
 Além disso, alguns textos sobre os benefícios da IA, coletados da web, foram utilizados para mostrar como essas tecnologias já estão melhorando nosso cotidiano. Meu objetivo principal é trazer uma mensagem positiva, de alegria e boas-vindas à IA. 
@@ -42,6 +45,8 @@ O trabalho foi pensado para ser prático, ágil e útil, destacando o dinamismo 
 
 **Vamos juntos dar boas-vindas às IAs e colaborar com um futuro brilhante!**
 
+**IA e Humanidade: Uma Parceria para um Mundo Melhor**
+
 ---
 
 ## Contribuições
@@ -51,3 +56,7 @@ Fique à vontade para sugerir melhorias ou novas ideias! A tecnologia é uma jor
 ## Agradecimento
 
 Agradeço a Imersão Alura e ao Google Gemini por proporcionarem essa experiência.
+
+
+
+**Licença:** MIT
