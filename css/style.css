@@ -316,7 +316,7 @@ footer {
   margin: 0 10px;
 }
 
-.back-to-top {
+/* .back-to-top {
   opacity: 0;
   transition: opacity 0.3s ease-in-out;
 
@@ -335,7 +335,31 @@ footer {
 
 .back-to-top.show {
   opacity: 1;
+} */
+
+
+.back-to-top {
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  
+  /* Remova o display: none */
 }
+
+.back-to-top.show {
+  opacity: 1;
+  pointer-events: auto; /* Isso garante que o botão seja clicável quando visível */
+}
+
 
 footer ul > li {
   display: inline-flex;
