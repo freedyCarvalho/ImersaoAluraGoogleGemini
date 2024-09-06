@@ -28,6 +28,7 @@ body {
 }
 
 header {
+  transition: background-image 1s ease-in-out;
   text-align: center;
   background-color: #222;
   color: #fff;
@@ -108,7 +109,8 @@ button#btn-buscar:hover {
   background-color: #3e8e41;
 }
 
-/* Botão Limpar */
+
+
 input#busca,
 button#btn-limpar {
   padding: 10px;
@@ -130,6 +132,12 @@ button#btn-limpar {
 button#btn-limpar:hover {
   background-color: #3e8e41;
 }
+
+
+
+
+
+
 
 div#content-cofundador {
   margin-top: 10px;
