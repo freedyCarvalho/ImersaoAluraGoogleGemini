@@ -201,7 +201,6 @@ let listaResultados = document.getElementById('lista-resultados');
 
 inputBusca.addEventListener('input', () => {
     let termoBusca = inputBusca.value.toLowerCase();
-    //console.log(termoBusca.length);
     listaResultados.innerHTML = ''; // Limpa a lista antes de preencher
 
     gemini.habilidades.forEach(habilidade => {
@@ -209,7 +208,6 @@ inputBusca.addEventListener('input', () => {
             boxResultados.style.display = 'block';
             if (habilidade.nome.toLowerCase().includes(termoBusca)) {
                 let li = document.createElement('li');
-                //li.textContent = habilidade;
                 li.textContent = habilidade.nome;
                 li.addEventListener('click', () => {
                     mostrarModal(habilidade.descricao);
