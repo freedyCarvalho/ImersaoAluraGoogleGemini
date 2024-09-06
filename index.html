@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title id="title-head"></title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="icon"
+        href="https://www.gstatic.com/lamda/images/gemini_favicon_f069958c85030456e93de685481c559f160ea06b.png"
+        sizes="any" type="image/png">
+</head>
+
+<body>
+    <header>
+        <h1 id="header-h1"></h1>
+        <p id="header-p"></p>
+    </header>
+    <main>
+        <div class="container-busca">
+            <div class="busca">
+                <input type="text" id="busca" placeholder="Pesquise por uma habilidade">
+                <button id="btn-buscar"><i class="fas fa-search"></i> Buscar</button>
+            </div>
+        </div>
+
+        <div class="resultados" id="box-resultados-busca">
+            <h2 id="resultado-busca-h2"></h2>
+            <ul id="lista-resultados"></ul>
+        </div>
+
+        <div class="resultados" id="box-apresentacao">
+            <h2 id="h2-apresentacao">Gemini</h2>
+            <div id="content-apresentacao"></div>
+            <div id="content-complementar"></div>
+        </div>
+
+        <div class="resultados" id="box-sobre-ia">
+            <h2 id="h2-sobre-ia"></h2>
+            <div id="content-texto-ia"></div>
+            <div>
+                <p id="titulo-lista-ia"></p>
+                <ul id="lista-ia" class="info-ia"></ul>
+            </div>
+        </div>
+
+        <div id="modal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <p id="modal-text"></p>
+                <button class="btn-fechar">Fechar</button>
+            </div>
+        </div>
+
+        <section id="historico-habilidades">
+            <h2 id="historico-habilidades-h2"></h2>
+            <ul id="habilidades"></ul>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4" id="footer-sobre"></div>
+                <div class="col-md-4">
+                    <h3>Links Úteis</h3>
+                    <ul id="footer-links-uteis"></ul>
+                </div>
+                <div class="col-md-4">
+                    <h3>Redes Sociais</h3>
+                    <ul class="social-icons">
+                        <li><a href="https://www.facebook.com/AluraCursosOnline" target="_blank">
+                            <i class="fab fa-facebook-f"></i></a>
+                        </li>
+                        <li><a href="https://www.instagram.com/aluraonline" target="_blank">
+                            <i class="fab fa-instagram"></i></a>
+                        </li>
+                        <li><a href="https://twitter.com/aluraonline" target="_blank">
+                            <i class="fab fa-twitter"></i></a>
+                        </li>
+                    </ul>
+                    <div id="footer-copyright"></div>
+                    <a href="#" class="back-to-top">Voltar ao Topo</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="content.js"></script>
+    <script src="app.js"></script>
+    <script src="animation.js"></script>
+</body>
+</html>
