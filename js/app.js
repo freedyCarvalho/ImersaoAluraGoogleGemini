@@ -32,8 +32,6 @@ function exibirConteudoApresentacao() {
     let tituloApresentacao = document.getElementById('h2-apresentacao');
     tituloApresentacao.innerHTML = gemini.nome;
 
-    //let textoComplementar = document.getElementById('content-complementar');
-
     // Texto para o exemplo de uso
     let divExemploUso = document.getElementById('content-exemplos-de-uso');
     let htmlExemplosDeUso = "";
@@ -80,10 +78,6 @@ function exibirConteudoIA() {
                 ${itens.titulo}
                 <span>${itens.descricao}</span>
             </li>`
-
-        // let li = document.createElement('li');
-        // li.textContent = itens.titulo;
-        // listaIA.appendChild(li);
     });
 
     listaIA.innerHTML = textoDescricaoIA;
@@ -237,24 +231,6 @@ btnLimpar.addEventListener('click', () => {
     listaResultados.innerHTML = ''; // Limpa a lista antes de preencher
     boxResultados.style.display = 'none';
 });
-
-
-// Codificação que executa a Busca ao clicar no botão buscar
-// let btnBuscar = document.getElementById('btn-buscar');
-
-// btnBuscar.addEventListener('click', () => {
-//     let termoBusca = inputBusca.value.toLowerCase();
-//     listaResultados.innerHTML = ''; // Limpa a lista antes de preencher
-
-//     gemini.habilidades.forEach(habilidade => {
-//         if (habilidade.nome.toLowerCase().includes(termoBusca)) {
-//             let li = document.createElement('li');
-//             li.textContent = habilidade.nome;
-//             listaResultados.appendChild(li);
-//         }
-//     });
-// });
-
 
 // Exibição do modal ao clicar em alguma habilidade
 function mostrarModal(texto) {
