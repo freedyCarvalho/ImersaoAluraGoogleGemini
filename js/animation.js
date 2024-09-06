@@ -1,3 +1,4 @@
+// Tentativa 01
 // // Seleciona o botão
 // const backToTopButton = document.querySelector('.back-to-top');
 
@@ -23,28 +24,48 @@
 // backToTopButton.addEventListener('click', scrollToTop);
 
 
-// Seleciona o botão
+// Tentativa: 2
+// // Seleciona o botão
+// const backToTopButton = document.querySelector('.back-to-top');
+
+// // Função para rolar suavemente para o topo
+// function scrollToTop() {
+//   window.scrollTo({
+//     top: 0,
+//     behavior: 'smooth'
+//   });
+// }
+
+// // Adiciona um evento de clique ao botão para rolar para o topo
+// backToTopButton.addEventListener('click', scrollToTop);
+
+
+
+
+
+// Seleciona o link "Voltar ao Topo"
 const backToTopButton = document.querySelector('.back-to-top');
 
-// Função para rolar suavemente para o topo
-function scrollToTop() {
-  window.scrollTo({
-    top: 0,
-    behavior: 'smooth'
-  });
-}
-
+// Adiciona um listener de evento ao scroll da página
+// Exibe o botão quando o scroll ultrapassa o limite configurado
 window.addEventListener('scroll', () => {
-    if (window.scrollY > 100) {
-      backToTopButton.classList.add('show');
-    } else {
-      backToTopButton.classList.remove('show');
-    }
+  if (window.scrollY > 100) {
+    backToTopButton.classList.add('show');
+  } else {
+    backToTopButton.classList.remove('show');
+  }
 });
 
-// Adiciona um evento de clique ao botão para rolar para o topo
-backToTopButton.addEventListener('click', scrollToTop);
+// Adiciona um listener de evento ao botão
+backToTopButton.addEventListener('click', function(event) {
+    event.preventDefault(); // Evita o comportamento padrão do link
 
+    // Rola suavemente até o topo da página
+    window.scrollTo({
+        top: 0,
+        behavior: 'smooth' // Define a rolagem como suave
+    });
+});
 
 
 
