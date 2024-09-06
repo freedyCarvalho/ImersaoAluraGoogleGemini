@@ -56,7 +56,8 @@ setInterval(trocarImagem, 5000);
 // Array com os caminhos das imagens
 const imagens = [
   '../img/header-gemini-teia-shadow-d-opc.png',
-  '../img/header-homem-ia.png'
+  '../img/header-homem-ia.png',
+  '../img/header-homem-ia-again.png'
 ];
 
 // Seleciona o elemento do header
