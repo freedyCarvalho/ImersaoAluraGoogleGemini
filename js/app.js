@@ -263,9 +263,11 @@ window.onclick = function(event) {
 }
 
 // Acionando as funções para que as informações sejam exibidas no site
-exibirInformacoesTitle();
-exibirConteudoApresentacao();
-exibirConteudoIA();
-exibirResultadosRandomicos();
-exibirInformacoesHeader();
-exibirInformacoesFooter();
+document.addEventListener('DOMContentLoaded', function() {
+    exibirInformacoesTitle();
+    exibirConteudoApresentacao();
+    exibirConteudoIA();
+    exibirResultadosRandomicos();
+    exibirInformacoesHeader();
+    exibirInformacoesFooter();
+});
