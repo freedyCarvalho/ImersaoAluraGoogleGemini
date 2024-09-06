@@ -32,7 +32,7 @@ header {
   background-color: #222;
   color: #fff;
   padding: 20px;
-  background-image: url(header-gemini-teia-shadow-d-opc.png);
+  background-image: url(../img/header-gemini-teia-shadow-d-opc.png);
   border-radius: 10px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
 }
@@ -95,16 +95,48 @@ button#btn-buscar {
 }
 
 button#btn-buscar {
+  transition: all 0.3s ease-in-out;
   background-color: #4caf50; /* Verde */
   color: white;
   cursor: pointer;
   width: 100px;
+  margin-left: 10px;
 }
 
 /* Estilos para quando o botão está sendo pressionado */
 button#btn-buscar:hover {
   background-color: #3e8e41;
 }
+
+
+
+input#busca,
+button#btn-limpar {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 230px;
+}
+
+button#btn-limpar {
+  transition: all 0.3s ease-in-out;
+  background-color: #4caf50; /* Verde */
+  color: white;
+  cursor: pointer;
+  width: 100px;
+  margin-left: 10px;
+}
+
+/* Estilos para quando o botão está sendo pressionado */
+button#btn-limpar:hover {
+  background-color: #3e8e41;
+}
+
+
+
+
+
+
 
 div#content-cofundador {
   margin-top: 10px;
@@ -124,10 +156,6 @@ li {
 
 /* Busca */
 
-button#btn-buscar {
-  transition: all 0.3s ease-in-out;
-}
-
 button#btn-buscar:hover {
   transform: scale(1.05);
 }
@@ -146,6 +174,35 @@ button#btn-buscar:hover {
   align-items: center;
   margin-bottom: 20px;
 }
+
+.busca > label {
+  display:inline-block;
+  color:#fff; 
+  margin-right:10px;
+}
+
+.sobre-gemini {
+  margin: auto;
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.sobre-gemini div#content-exemplos-de-uso > ul {
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  padding: 10px 0 10px 0 !important;
+}
+
+.sobre-gemini div#content-exemplos-de-uso ul > li {
+  background-color: transparent;
+  margin-left: 30px;
+  padding:2px;
+}
+
 
 .resultados {
   margin: auto;
@@ -175,17 +232,31 @@ ul#habilidades > li:hover {
 
 /* Box IA */
 
-p#titulo-lista-ia {
-    font-weight: bold;
+.sobreIA {
+  margin: auto;
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
 }
 
-ul.info-ia {
+.sobreIA ul.info-ia {
   background-color: #f0f0f0;
   border-radius: 10px;
 }
 
-ul.info-ia > li {
+.sobreIA ul.info-ia > li {
   background-color: transparent;
+  font-weight: bold;
+}
+
+.sobreIA ul.info-ia > li > span {
+  font-weight: normal;
+  display: flex;
+  margin-left: 30px;
+  margin-top: 10px;
 }
 
 /* Modal */
@@ -278,4 +349,9 @@ footer ul > li a {
 footer ul > li:hover {
   text-decoration: underline;
   font-style: oblique;
+}
+
+footer ul#footer-links-uteis {
+  margin-top: 0;
+  margin-bottom:0;
 }
