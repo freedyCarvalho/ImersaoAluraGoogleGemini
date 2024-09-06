@@ -1,5 +1,5 @@
 
-# IA a Serviço da Humanidade: Um Projeto Prático com Google Gemini, bem-vindas, IAs! 🌍🤖
+# IA a Serviço da Humanidade: Um Projeto Prático com Google Gemini. Bem-vindas, IAs! 🌍🤖
 
 ## Introdução
 
