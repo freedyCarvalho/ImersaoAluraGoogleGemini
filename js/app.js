@@ -161,6 +161,16 @@ function visitarSite(url) {
 }
 
 
+// Função para remover o acento
+// Usado para o sistema de busca do site
+function removerAcento(texto) {
+     return texto.normalize('NFD').replace(/[\u0300-\u036f]/g, "");
+}
+
+String.prototype.removerAcentuacao = function() {
+    return this.normalize('NFD').replace(/[\u0300-\u036f]/g, "");
+};
+
 
 // Função para exibir alguns resultados randômicos das habilidades da IA
 function exibirResultadosRandomicos(){
@@ -174,7 +184,7 @@ function exibirResultadosRandomicos(){
             let li = document.createElement('li');
             li.textContent = habilidade.nome;
             li.addEventListener('click', () => {
-                mostrarModal(habilidade.descricao);
+                mostrarModal(habilidade.nome, habilidade.descricao, habilidade.imagem);
             });
             listaHabilidades.appendChild(li);
         });
@@ -200,17 +210,18 @@ let inputBusca = document.getElementById('busca');
 let listaResultados = document.getElementById('lista-resultados');
 
 inputBusca.addEventListener('input', () => {
-    let termoBusca = inputBusca.value.toLowerCase();
+    let termoBusca = inputBusca.value.toLowerCase().removerAcentuacao();
     listaResultados.innerHTML = ''; // Limpa a lista antes de preencher
 
     gemini.habilidades.forEach(habilidade => {
         if(termoBusca.length > 0) {
             boxResultados.style.display = 'block';
-            if (habilidade.nome.toLowerCase().includes(termoBusca)) {
+            if (habilidade.nome.toLowerCase().removerAcentuacao().includes(termoBusca)) {
                 let li = document.createElement('li');
                 li.textContent = habilidade.nome;
+                console.log(habilidade.imagem);
                 li.addEventListener('click', () => {
-                    mostrarModal(habilidade.descricao);
+                    mostrarModal(habilidade.nome, habilidade.descricao, habilidade.imagem);
                 });
                 listaResultados.appendChild(li);
             }
@@ -231,14 +242,33 @@ btnLimpar.addEventListener('click', () => {
 });
 
 // Exibição do modal ao clicar em alguma habilidade
-function mostrarModal(texto) {
+function mostrarModal(titulo, texto, img) {
+    
     let modal = document.getElementById('modal');
+    let modalTitle = document.getElementById('modal-titulo');
     let modalText = document.getElementById('modal-text');
+    let imagem = document.getElementById('modal-imagem');
+    
+    // Selecionando a figcaption da legenda do modal
+    let figcaption = document.querySelector('figcaption');
+    figcaption.innerHTML = "As imagens foram geradas pelo ";
+
+    // Adiciona um link ao final da legenda
+    let link = document.createElement('a');
+    link.href = 'http://canva.com';
+    link.textContent = 'Canva.com';
+    link.style.marginLeft = '5px';
+    link.target = "_blank";
+    figcaption.appendChild(link);
+
     modal.style.display = 'block';
-    modalText.textContent
-   = texto;
-}
-  
+    modalTitle.innerHTML = titulo;
+    modalText.textContent = texto;
+    imagem.src = './img/habilidades/' + img;
+    imagem.alt = titulo;
+    imagem.title = titulo;
+    
+}  
 
 // Codificação para fechar modal quando clicar no X, fora do modal ou mesmo no modal
 let span = document.getElementsByClassName("close")[0];
