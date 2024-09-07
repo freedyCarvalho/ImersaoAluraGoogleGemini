@@ -18,6 +18,16 @@
   .resultados {
     width: 95%;
   }
+
+   .box-aplicacao-publicacoes {
+      display: flex;
+      flex-direction: column;
+  }
+
+  .box-aplicacao-publicacoes img {
+      width: 100%;
+      max-width: 100%;
+  }
 }
 
 body {
@@ -36,13 +46,6 @@ header {
   background-image: url(../img/header-gemini-teia-shadow-d-opc.png);
   border-radius: 10px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
-
-  background-size: cover;
-  background-position: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
 
 h1 {
@@ -116,6 +119,8 @@ button#btn-buscar:hover {
   background-color: #3e8e41;
 }
 
+
+
 input#busca,
 button#btn-limpar {
   padding: 10px;
@@ -176,12 +181,13 @@ button#btn-buscar:hover {
 }
 
 .busca > label {
-  display: inline-block;
-  color: #fff;
-  margin-right: 10px;
+  display:inline-block;
+  color:#fff; 
+  margin-right:10px;
 }
 
 .sobre-gemini {
+  display: none;
   margin: auto;
   background-color: white;
   border-radius: 10px;
@@ -200,8 +206,9 @@ button#btn-buscar:hover {
 .sobre-gemini div#content-exemplos-de-uso ul > li {
   background-color: transparent;
   margin-left: 30px;
-  padding: 2px;
+  padding:2px;
 }
+
 
 .resultados {
   margin: auto;
@@ -228,9 +235,11 @@ ul#habilidades > li:hover {
   font-style: oblique;
 }
 
+
 /* Box IA */
 
 .sobreIA {
+  display: none;
   margin: auto;
   background-color: white;
   border-radius: 10px;
@@ -256,6 +265,90 @@ ul#habilidades > li:hover {
   margin-left: 30px;
   margin-top: 10px;
 }
+
+
+/* Box Aplicação IA */
+
+.aplicacaoIA {
+  display: none;
+  margin: auto;
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.aplicacaoIA ul.info-ia {
+  background-color: #f0f0f0;
+  border-radius: 10px;
+}
+
+.aplicacaoIA ul.info-ia > li {
+  background-color: transparent;
+  font-weight: bold;
+}
+
+.aplicacaoIA ul.info-ia > li > span {
+  font-weight: normal;
+  display: flex;
+  margin-left: 30px;
+  margin-top: 10px;
+}
+
+.box-aplicacao-informacoes {
+  margin-left: 20px;
+}
+
+.box-aplicacao-informacoes h4 {
+  margin-top: 40px;
+  padding: 0;
+}
+
+.box-aplicacao-informacoes p {
+  margin: 0;
+  padding: 20px 0 20px 0;
+}
+
+.box-aplicacao-publicacoes {
+  display: flex;
+  flex-direction: row;
+}
+
+.box-aplicacao-publicacoes img {
+  max-width: 320px;
+  height: auto;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+
+.box-aplicacao-publicacoes div {
+  margin: 0;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  padding: 10px
+}
+
+.box-aplicacao-conteudo {
+  display: flex;
+  flex-direction: column;
+}
+
+.box-aplicacao-conteudo p {
+  margin: 0;
+  padding: 0;
+  padding-bottom: 10px;
+}
+
+.box-aplicacao-conteudo a {
+  text-decoration: none;
+}
+
+.box-aplicacao-conteudo a:hover {
+  text-decoration: underline;
+}
+
 
 /* Modal */
 
@@ -360,7 +453,7 @@ footer {
   margin: 0 10px;
 }
 
-/* .back-to-top {
+.back-to-top {
   opacity: 0;
   transition: opacity 0.3s ease-in-out;
 
@@ -379,28 +472,6 @@ footer {
 
 .back-to-top.show {
   opacity: 1;
-} */
-
-.back-to-top {
-  opacity: 0;
-  transition: opacity 0.3s ease-in-out;
-
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-
-  background-color: #4caf50;
-  color: white;
-  padding: 10px 20px;
-  text-decoration: none;
-  border-radius: 5px;
-
-  /* Remova o display: none */
-}
-
-.back-to-top.show {
-  opacity: 1;
-  pointer-events: auto; /* Isso garante que o botão seja clicável quando visível */
 }
 
 footer ul > li {
@@ -420,5 +491,5 @@ footer ul > li:hover {
 
 footer ul#footer-links-uteis {
   margin-top: 0;
-  margin-bottom: 0;
+  margin-bottom:0;
 }
