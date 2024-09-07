@@ -23,7 +23,7 @@ backToTopButton.addEventListener('click', function(event) {
 });
 
 
-// Transição das imagens na header
+
 // Array com os caminhos das imagens
 const imagens = [
   '../img/header-gemini-teia-shadow-d-opc.png',

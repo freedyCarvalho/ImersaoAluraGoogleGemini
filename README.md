@@ -44,10 +44,10 @@ Além disso, alguns textos sobre os benefícios da IA, coletados da web, foram u
 Digite uma habilidade ou tecnologia de IA no campo de busca, e veja como o sistema responde automaticamente. Explore as imagens randômicas que simbolizam essa fusão humano-IA, e clique nas habilidades para ver mais detalhes em modais interativos. Uma sugestão: digite pausadamente Texto e verá que as opções vão surgindo na seção de resultados.
 
 
-### Link do web site do projeto
+### Link para o site do projeto
 
-https://iadobem.vercel.app/
-
+Você pode acessar o site do projeto clicando aqui: [Iadobem](https://iadobem.vercel.app/){:target="_blank"}.
+=======
 
 ## Considerações Finais
 
