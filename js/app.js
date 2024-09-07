@@ -402,7 +402,6 @@ function mostrarModal(titulo, texto, img) {
     
 }
   
-
 // Codificação para fechar modal quando clicar no X, fora do modal ou mesmo no modal
 let span = document.getElementsByClassName("close")[0];
 
