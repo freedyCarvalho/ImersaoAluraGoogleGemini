@@ -47,7 +47,7 @@ Digite uma habilidade ou tecnologia de IA no campo de busca, e veja como o siste
 ### Link para o site do projeto
 
 Você pode acessar o site do projeto clicando aqui: [Iadobem](https://iadobem.vercel.app/){:target="_blank"}.
-=======
+
 
 ## Considerações Finais
 
@@ -57,7 +57,6 @@ O trabalho foi pensado para ser prático, ágil e útil, destacando o dinamismo 
 
 **IA e Humanidade: Uma Parceria para um Mundo Melhor**
 
----
 
 ## Contribuições
 
