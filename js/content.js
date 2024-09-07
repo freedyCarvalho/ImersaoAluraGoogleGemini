@@ -21,83 +21,103 @@ const gemini = {
     habilidades: [
         {
             nome: "Geração de texto",
-            descricao: "Crie textos originais e personalizados para diversas finalidades, como artigos, e-mails, posts para redes sociais e muito mais. Ideal para quem precisa de conteúdo de qualidade rapidamente."
+            descricao: "Crie textos originais e personalizados para diversas finalidades, como artigos, e-mails, posts para redes sociais e muito mais. Ideal para quem precisa de conteúdo de qualidade rapidamente.",
+            imagem: "geracao-texto-2.png"
         },
         {
             nome: "Tradução de idiomas",
-            descricao: "Traduza textos de um idioma para outro de forma precisa e natural, facilitando a comunicação global e a compreensão de diferentes culturas."
+            descricao: "Traduza textos de um idioma para outro de forma precisa e natural, facilitando a comunicação global e a compreensão de diferentes culturas.",
+            imagem: "ia-16.png"
         },
         {
             nome: "Respostas a perguntas",
-            descricao: "Responda a suas perguntas de forma clara e concisa, buscando informações em diversas fontes. Perfeito para tirar dúvidas sobre diversos assuntos."
+            descricao: "Responda a suas perguntas de forma clara e concisa, buscando informações em diversas fontes. Perfeito para tirar dúvidas sobre diversos assuntos.",
+            imagem: "resposta-perguntas.png"
         },
         {
             nome: "Resumo de textos",
-            descricao: "Resuma textos longos e complexos em parágrafos concisos, destacando as ideias principais. Ideal para quem precisa se manter informado rapidamente."
+            descricao: "Resuma textos longos e complexos em parágrafos concisos, destacando as ideias principais. Ideal para quem precisa se manter informado rapidamente.",
+            imagem: "geracao-texto.png"
         },
         {
             nome: "Criação de diferentes formatos de conteúdo",
-            descricao: "Gere diversos formatos de conteúdo, como poemas, scripts, músicas e códigos, expandindo as possibilidades criativas."
+            descricao: "Gere diversos formatos de conteúdo, como poemas, scripts, músicas e códigos, expandindo as possibilidades criativas.",
+            imagem: "criacao-formato-conteudo.png"
         },
         {
             nome: "Aprendizagem contínua",
-            descricao: "Aprenda continuamente com novas informações e interações, tornando-se cada vez mais inteligente e capaz de realizar tarefas complexas."
+            descricao: "Aprenda continuamente com novas informações e interações, tornando-se cada vez mais inteligente e capaz de realizar tarefas complexas.",
+            imagem: "aprendizagem-continua.png"
         },
         {
             nome: "Análise de sentimentos",
-            descricao: "Analise o sentimento expresso em um texto, identificando se é positivo, negativo ou neutro. Útil para entender a opinião pública sobre determinado assunto."
+            descricao: "Analise o sentimento expresso em um texto, identificando se é positivo, negativo ou neutro. Útil para entender a opinião pública sobre determinado assunto.",
+            imagem: "analise-sentimentos.png"
         },
         {
             nome: "Geração de código",
-            descricao: "Gere código em diversas linguagens de programação, como Python, JavaScript e C++. Ideal para desenvolvedores que precisam de um ponto de partida para seus projetos."
+            descricao: "Gere código em diversas linguagens de programação, como Python, JavaScript e C++. Ideal para desenvolvedores que precisam de um ponto de partida para seus projetos.",
+            imagem: "geracao-codigo-4.png"
         },
         {
             nome: "Criação de histórias interativas",
-            descricao: "Crie histórias interativas nas quais o usuário pode tomar decisões e influenciar o desenrolar da narrativa. Perfeito para criar experiências imersivas."
+            descricao: "Crie histórias interativas nas quais o usuário pode tomar decisões e influenciar o desenrolar da narrativa. Perfeito para criar experiências imersivas.",
+            imagem: "criacao-jogos-texto-3.png"
         },
         {
             nome: "Resolução de problemas",
-            descricao: "Ajude a resolver problemas lógicos e matemáticos, fornecendo soluções passo a passo e explicações detalhadas."
+            descricao: "Ajude a resolver problemas lógicos e matemáticos, fornecendo soluções passo a passo e explicações detalhadas.",
+            imagem: "resolucao-problemas.png"
         },
         {
             nome: "Simulação de conversas",
-            descricao: "Simule conversas com diferentes personagens, desde amigos até figuras históricas. Ideal para fins educacionais ou de entretenimento."
+            descricao: "Simule conversas com diferentes personagens, desde amigos até figuras históricas. Ideal para fins educacionais ou de entretenimento.",
+            imagem: "simulacao-conversa.png"
         },
         {
             nome: "Geração de ideias criativas",
-            descricao: "Gere ideias originais e inovadoras para diversos projetos, como campanhas de marketing, desenvolvimento de produtos e resolução de problemas."
+            descricao: "Gere ideias originais e inovadoras para diversos projetos, como campanhas de marketing, desenvolvimento de produtos e resolução de problemas.",
+            imagem: "geracao-ideias-criativas.png"
         },
         {
             nome: "Adaptação a diferentes estilos de escrita",
-            descricao: "Adapte seu estilo de escrita para se adequar a diferentes públicos e contextos, como formal, informal, técnico ou criativo."
+            descricao: "Adapte seu estilo de escrita para se adequar a diferentes públicos e contextos, como formal, informal, técnico ou criativo.",
+            imagem: "adaptacao-diferentes-estilo-escrita-3.png"
         },
         {
             nome: "Criação de conteúdo para mídias sociais",
-            descricao: "Crie posts engajadores para redes sociais, como o Twitter, Instagram e Facebook, aumentando o alcance e o envolvimento do seu público."
+            descricao: "Crie posts engajadores para redes sociais, como o Twitter, Instagram e Facebook, aumentando o alcance e o envolvimento do seu público.",
+            imagem: "criacao-conteudo-midia-digital-3.png"
         },
         {
             nome: "Extração de informações de textos",
-            descricao: "Extraia informações relevantes de grandes volumes de texto, como artigos científicos, relatórios e notícias."
+            descricao: "Extraia informações relevantes de grandes volumes de texto, como artigos científicos, relatórios e notícias.",
+            imagem: "extracao-infromacoes-texto-3.png"
         },
         {
             nome: "Geração de scripts para vídeos",
-            descricao: "Gere scripts para vídeos explicativos, tutoriais e outros formatos de vídeo, facilitando a criação de conteúdo audiovisual."
+            descricao: "Gere scripts para vídeos explicativos, tutoriais e outros formatos de vídeo, facilitando a criação de conteúdo audiovisual.",
+            imagem: "geracao-scripts-video-2.png"
         },
         {
             nome: "Criação de jogos de texto",
-            descricao: "Crie jogos textuais interativos, nos quais o jogador avança na história através de comandos de texto."
+            descricao: "Crie jogos textuais interativos, nos quais o jogador avança na história através de comandos de texto.",
+            imagem: "criacao-jogos-texto-3.png"
         },
         {
             nome: "Geração de música",
-            descricao: "Componha melodias e harmonias em diversos estilos musicais, podendo criar trilhas sonoras personalizadas ou auxiliar na composição de músicas originais."
+            descricao: "Componha melodias e harmonias em diversos estilos musicais, podendo criar trilhas sonoras personalizadas ou auxiliar na composição de músicas originais.",
+            imagem: "geracao-musica-2.png"
         },
         {
             nome: "Criação de apresentações",
-            descricao: "Gere apresentações visuais atraentes e informativas, com slides personalizados e conteúdo relevante para diferentes públicos."
+            descricao: "Gere apresentações visuais atraentes e informativas, com slides personalizados e conteúdo relevante para diferentes públicos.",
+            imagem: "criacao-apresentacoes.png"
         },
         {
             nome: "Geração de relatórios",
-            descricao: "Gere relatórios concisos e informativos a partir de dados brutos, facilitando a análise e a tomada de decisões."
+            descricao: "Gere relatórios concisos e informativos a partir de dados brutos, facilitando a análise e a tomada de decisões.",
+            imagem: "geracao-relatorios.png"
         }
     ],
     utilidade: {
