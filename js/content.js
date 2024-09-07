@@ -229,3 +229,25 @@ const footer = {
     },
     copyright: "<p>&copy; 2024 - Imersão Dev com Gemini. Desenvolvendo um projeto com a Alura e o Google Gemini.</p>"
 };
+
+const pesquisas = 
+    [
+        {
+            midia: "Globo Rural",
+            titulo: "Ferramenta de inteligência artificial identifica doenças do cacau",
+            manchete: "Sistema desenvolvido por alunos da Universidade Federal Rural da Amazônia (UFRA) tem 95% de assertividade e será ofertado de forma gratuita a produtores da região",
+            texto: "Já amplamente utilizada em máquinas e equipamentos para cultivo de grãos, a inteligência artificial aplicada à agricultura chegará às mãos de pequenos produtores amazônicos de cacau de forma gratuita ainda este ano. Este é o plano de pesquisadores da Universidade Federal Rural da Amazônia (UFRA) que estão finalizando o desenvolvimento de uma ferramenta para identificação das principais doenças que ocorrem na região.",
+            data: "06/06/2024",
+            url: "https://globorural.globo.com/tecnologia-e-inovacao/noticia/2024/06/ferramenta-de-inteligencia-artificial-identifica-doencas-do-cacau.ghtml",
+            imagem: "foto-cacau.jpg"
+        },
+        {
+            midia: "Sucesso no Campo",
+            titulo: "Robô de ordenha utiliza inteligência artificial para coletar e analisar dados que auxiliam na prevenção de doenças",
+            manchete: "A Inteligência Artificial e o tratamento precoce de doenças",
+            texto: "Dentro do sistema, a IA é utilizada para identificar doenças por meio de relatórios detalhados, tornando possível a detecção antecipada de animais doentes. “Alguns exemplos são os alertas de mastite ao detectar um aumento de condutividade, alarmes ao identificar uma queda na ruminação e orientações de não realizar novas inseminações em algumas vacas. A IA é suportada por algoritmos de aprendizado de máquina, que são continuamente treinados com os dados coletados, podendo ser adaptados às condições específicas de cada fazenda, seja de pastoreio ou confinamento",
+            data: "01/07/2024",
+            url: "https://sucessonocampo.com.br/robo-de-ordenha-utiliza-inteligencia-artificial-para-coletar-e-analisar-dados-que-auxiliam-na-prevencao-de-doencas/",
+            imagem: "sucesso-no-campo.jpg"
+        }
+    ];
