@@ -80,10 +80,6 @@ function exibirConteudoIA() {
                 ${itens.titulo}
                 <span>${itens.descricao}</span>
             </li>`
-
-        // let li = document.createElement('li');
-        // li.textContent = itens.titulo;
-        // listaIA.appendChild(li);
     });
 
     listaIA.innerHTML = textoDescricaoIA;
@@ -251,23 +247,6 @@ btnLimpar.addEventListener('click', () => {
 });
 
 
-// Codificação que executa a Busca ao clicar no botão buscar
-// let btnBuscar = document.getElementById('btn-buscar');
-
-// btnBuscar.addEventListener('click', () => {
-//     let termoBusca = inputBusca.value.toLowerCase();
-//     listaResultados.innerHTML = ''; // Limpa a lista antes de preencher
-
-//     gemini.habilidades.forEach(habilidade => {
-//         if (habilidade.nome.toLowerCase().includes(termoBusca)) {
-//             let li = document.createElement('li');
-//             li.textContent = habilidade.nome;
-//             listaResultados.appendChild(li);
-//         }
-//     });
-// });
-
-
 // Exibição do modal ao clicar em alguma habilidade
 function mostrarModal(titulo, texto, img) {
     
@@ -297,7 +276,6 @@ function mostrarModal(titulo, texto, img) {
     
 }
   
-
 // Codificação para fechar modal quando clicar no X, fora do modal ou mesmo no modal
 let span = document.getElementsByClassName("close")[0];
 
